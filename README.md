@@ -107,4 +107,4 @@ find_eight()
 
 Список источников:
 
- https://habr.com/ru/companies/otus/articles/529356/
+ [Хабр, реально интересная инфа](https://habr.com/ru/companies/otus/articles/529356/)

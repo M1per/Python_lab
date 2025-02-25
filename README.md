@@ -105,6 +105,7 @@ find_eight()
 Поиск продолжается до тех пор, пока не будет найдено 5 чисел, удовлетворяющих условию.
 
 
-Список источников:
+# Список источников:
 
- [Хабр, реально интересная инфа](https://habr.com/ru/companies/otus/articles/529356/)
+1.  [Itertools в Python](https://habr.com/ru/companies/otus/articles/529356/)
+2.  [Итерируем правильно: 20 приемов использования в Python модуля itertools](https://proglib.io/p/iteriruemsya-pravilno-20-priemov-ispolzovaniya-v-python-modulya-itertools-2020-01-03)

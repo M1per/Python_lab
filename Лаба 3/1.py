@@ -1,8 +1,6 @@
-# Функция без рекурсии
 def intersect(list1, list2):
     return [item for item in list1 if item in list2]
 
-# Функция с рекурсией
 def intersect_recursive(list1, list2):
     if not list1:
         return []

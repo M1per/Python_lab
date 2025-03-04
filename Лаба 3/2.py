@@ -13,7 +13,6 @@ def calculate_sqrt_yes(n):
         return 0
     return math.sqrt(3 + calculate_sqrt_yes(n - 1))
 
-# Ввод количества корней от пользователя
 n = int(input("Введите количество корней: "))
 print(calculate_sqrt_yes(n))
 print( calculate_sqrt_no(n))

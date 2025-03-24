@@ -7,6 +7,5 @@ def password_generator(length=8):
     inverted_password = ''.join(map(lambda c: c.swapcase(), password))
     return inverted_password
 
-# Пример использования (генерируем 5 паролей)
 for x in range(5):
     print(password_generator())

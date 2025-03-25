@@ -36,7 +36,7 @@
 
 2. Лямбда-функцию с swapcase() для инверсии регистра
 
-Реализовал сбор конечного результата в строку
+Реализовал выполнение генератора с помощью yield
 
 *Результат работы кода:* 
 
@@ -52,4 +52,4 @@
 
 1.  [Функция map() в Python: зачем нужна и как ей пользоваться](https://skillbox.ru/media/code/funkciya-map-v-python-zachem-nuzhna-i-kak-ey-polzovatsya/)
 2.  [Кэширование функций в Python](https://myrusakov.ru/python-function-memoization.html)
-3.  [Как создать генератор паролей на Python](https://sky.pro/media/kak-sozdat-generator-parolej-na-python/)
+3.  [Как работает yield в Python](https://habr.com/ru/articles/132554/)

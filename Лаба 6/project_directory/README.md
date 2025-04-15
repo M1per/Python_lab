@@ -136,6 +136,20 @@ elif event == "Рассчитать": — обработка события на
 Сохранение результатов в словарь data для дальнейшего использования.
 
 
+   д) Обработка сохранения данных:
+
+
+   elif event == "Сохранить как DOCX" - обработк события нажатия кнопки "Сохранить как DOCX" (открытие диалогового окна дляф выбора имени файла и вызов функции save_to_dock для сохранения данных в файл ворд)
+
+
+Тоже самое и для XLSX
+
+
+       3.5 Модуль main.py
+
+if __name__ == "__main__" - это условие, гарантирующее, что функция  create_gui будет запущена только тогда, когда файл main.py выполняется на прямую, а не импортируется как модуль.       
+
+
 ​
  
 
@@ -144,26 +158,8 @@ elif event == "Рассчитать": — обработка события на
 
 
 
-
-
-
-
-
-
-
-
-*Результат работы кода:* 
-
-
-![image](https://github.com/user-attachments/assets/b03a2879-078a-446e-8aa2-e898e80613cf)
-
-
-
-
-
-
 # Список источников:
 
-1.  [Функция map() в Python: зачем нужна и как ей пользоваться](https://skillbox.ru/media/code/funkciya-map-v-python-zachem-nuzhna-i-kak-ey-polzovatsya/)
-2.  [Кэширование функций в Python](https://myrusakov.ru/python-function-memoization.html)
-3.  [Как работает yield в Python](https://habr.com/ru/articles/132554/)
+1.  [Сделай то, сделай это, сделай сам PySimpleGUI](https://habr.com/ru/articles/662986/)
+2.  [Создаём графический интерфейс на Python за 10 минут](https://thecode.media/py-gui/)
+3.  [Питон и графический интерфейс ](https://otus.ru/journal/piton-i-graficheskij-interfejs/)
